@@ -50,6 +50,7 @@
     position: absolute;
     top: 25px;
     margin-left: -3.5rem;
+    color: black;
 }
 
 .body {
@@ -98,4 +99,34 @@
 .detailBtn:hover {
     background-color: #26738ad8;
     border: 3px solid black;
+}
+
+.counterBtn {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    padding: 5px 17px;
+    background-color: #26728a;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 3px solid #26728a;
+    cursor: pointer;
+}
+
+.counterBtn:hover {
+    background-color: #26738ad8;
+    border: 3px solid black;
+}
+
+.cartList {
+    margin: 1rem 25%;
+    width: 50%;
+    min-height: 85vh;
+    background-color: #FEFBEA;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.total {
+    margin-top: 1rem;
 }
